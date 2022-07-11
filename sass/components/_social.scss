@@ -1,0 +1,57 @@
+.social{
+&__icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+&__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 270px;
+  margin-top: 16px;
+}
+&__item {
+  display: flex;
+  align-items: center;
+}
+&__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+&__link:hover,
+&__link:focus,
+&__link:hover use {
+  fill: rgba(255, 255, 255, 1);
+  background-color: #2196f3;
+}
+&-icon:hover,
+&-icon:focus {
+  fill: rgba(255, 255, 255, 1);
+}
+&__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+&__link--dark {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+&__icon--dark {
+  fill: rgba(255, 255, 255, 1);
+}
+}

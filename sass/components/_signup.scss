@@ -1,0 +1,30 @@
+.signup {
+  margin-top: 20px;
+&__input {
+  box-sizing: border-box;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 16px;
+  background-color: #2f303a;
+  outline: none;
+  color: #eeeeee;
+}
+&__icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 7px;
+  left: 14px;
+}
+&__form {
+  display: flex;
+}
+}

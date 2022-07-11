@@ -1,0 +1,23 @@
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19230769;
+  text-decoration: none;
+
+&__accent-text {
+  color: #2196f3;
+}
+}
+.logo--dark-theme {
+  color: #212121;
+}
+.logo--light-theme {
+  color: #ffffff;
+}
+.logo--light-theme:visited {
+  color: #ffffff;
+}
+
+

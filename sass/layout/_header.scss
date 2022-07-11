@@ -1,0 +1,20 @@
+.header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14285714;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+  & .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  & .contact__adress:first-child {
+    margin-left: 93px;
+  }
+  & .contact__adress:last-child {
+    margin-left: 50px;
+  }
+}

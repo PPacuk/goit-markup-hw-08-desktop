@@ -1,0 +1,9 @@
+.active::after {
+  content: '';
+  display: block;
+  border-bottom: 4px solid;
+  position: relative;
+  margin-top: -4px;
+  top: 32px;
+  color: #2196f3;
+}
